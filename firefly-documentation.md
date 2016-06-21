@@ -26,8 +26,8 @@
 * Main vi-sensor page: http://wiki.ros.org/vi_sensor
 * Calibration the sensor: https://github.com/ethz-asl/kalibr/wiki/calibrating-the-vi-sensor
 * **Key Note:**
-* The sensor has been tested with the visensor node
-* https://github.com/ethz-asl/visensor_node
-* Camera feeds work, but the to further test it needs to be calibrated
+  * The sensor has been tested with the visensor node
+  * https://github.com/ethz-asl/visensor_node
+  * Camera feeds work, but the to further test it needs to be calibrated
 
 
