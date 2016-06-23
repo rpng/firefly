@@ -25,14 +25,14 @@ This is a guide to compiling and updating the firmware on the AscTec FireFly.
  3. Connect the your computer to the AscTec AutoPilot via the JTAG Adapter:
 ![JTAG adapter](http://i.imgur.com/8C75HBr.jpg)
  4. Check if the device is connected and recognized:
-- `ls /dev/ttyUSB*`
+	- `ls /dev/ttyUSB*`
  5.  Connect to OpenOCD:
-- `sudo openocd -f lpc2xxx_asctecusbjtag05.cfg`
+	- `sudo openocd -f lpc2xxx_asctecusbjtag05.cfg`
  6. If there are any warnings or errors restart the system and start over.
  7.  Open a telnet to OpenOCD:
- - `telnet localhost 4444`
+	- `telnet localhost 4444`
  8. Run the following commands to stop the device, upload the compiled binary, and to restart the device:
-- `reset halt`
-- `flash write_image erase main.bin`
-- `reset run`
+	- `reset halt`
+	- `flash write_image erase main.bin`
+	- `reset run`
  9. Restart the Firefly completely.
