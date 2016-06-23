@@ -7,7 +7,7 @@ AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec
   * How to connect to monitor, and usbs (picture guide)
   * How to login (username and pass, maybe ssh instructions)
   * How to connect to wifi
-  * Flashing firmware
+  * ~~Flashing firmware~~
   * Setting up ros workspace
   * Repos to clone (vi-sensor, mav_statup, msg, asctec)
   * Ros version
