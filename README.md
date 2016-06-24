@@ -1,6 +1,14 @@
 # Firefly
 AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec-firefly/
 
+
+# Table of Contents
+
+* Overall system details - [link](documentation/01_system_details.md)
+* vi-sensor overview, and software - [link](documentation/02_vi_sensor.md)
+* Changelog of software on mastermind - [link](documentation/03_installing_ros.md)
+* Firmware update for HLP - [link](documentation/04_firmware_update.md)
+
 # Todo
 
 * Documentation
@@ -10,6 +18,7 @@ AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec
   * ~~Flashing firmware~~
   * Setting up ros workspace
   * Repos to clone (vi-sensor, mav_statup, msg, asctec)
+  * Look into update the [mav_startup](https://github.com/rpng/firefly-interface) package
   * Ros version
   * **Line by line for Config files**
   * How to install the protection guard
