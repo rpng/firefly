@@ -1,10 +1,11 @@
+# Firmware Update
 
+### Intro
 
-## Firmware Update
-**Intro**
 This is a guide to compiling and updating the firmware on the AscTec FireFly.
+We need to flash the firmware so we can get the correct events from the high level processor.
 
-**Requirements**
+### Requirements
 
  1. Install OpenOCD:
 	 - `sudo apt-get install openocd`
@@ -18,21 +19,24 @@ This is a guide to compiling and updating the firmware on the AscTec FireFly.
 	 - Available [here](http://wiki.asctec.de/display/AR/SDK+Downloads)
 *Note:* Should download the latest files and host on Git
 
-**Instructions**
+### Instructions
 
- 1. cd to the asctec_mav_framework/asctec_hl_firmware
- 2.  Run catkin build
- 3. Connect the your computer to the AscTec AutoPilot via the JTAG Adapter:
-![JTAG adapter](http://i.imgur.com/8C75HBr.jpg)
- 4. Check if the device is connected and recognized:
-	- `ls /dev/ttyUSB*`
- 5.  Connect to OpenOCD:
-	- `sudo openocd -f lpc2xxx_asctecusbjtag05.cfg`
- 6. If there are any warnings or errors restart the system and start over.
- 7.  Open a telnet to OpenOCD:
-	- `telnet localhost 4444`
- 8. Run the following commands to stop the device, upload the compiled binary, and to restart the device:
-	- `reset halt`
-	- `flash write_image erase main.bin`
-	- `reset run`
- 9. Restart the Firefly completely.
+1. cd to the `asctec_mav_framework/asctec_hl_firmware`
+2. Run catkin build
+3. Connect the your computer to the AscTec AutoPilot via the JTAG Adapter:
+
+![JTAG adapter](../images/04_01_jtag_adapter.jpg)
+
+4. Check if the device is connected and recognized:
+- `ls /dev/ttyUSB*`
+5.  Connect to OpenOCD:
+- `sudo openocd -f lpc2xxx_asctecusbjtag05.cfg`
+6. If there are any warnings or errors restart the system and start over.
+7. Open a telnet to OpenOCD:
+- `telnet localhost 4444`
+8. Run the following commands to stop the device, upload the compiled binary, and to restart the device:
+- `reset halt`
+- `flash write_image erase main.bin`
+- `reset run`
+9. Restart the Firefly completely.
+10. Note that the main LED lights will turn to a constant red. This is normal
