@@ -21,7 +21,7 @@ AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec
   * Look into update the [mav_startup](https://github.com/rpng/firefly-interface) package
   * Ros version
   * **Line by line for Config files**
-  * How to install the protection guard
+  * ~~How to install the protection guard~~
 * Connect to vi-sensor with wifi enabled
 * How to record ros bags without external monitor
 * Fly the unit a bunch
