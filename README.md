@@ -17,7 +17,7 @@ AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec
   * How to connect to wifi
   * ~~Flashing firmware~~
   * Setting up ros workspace
-  * Repos to clone (vi-sensor, mav_statup, msg, asctec)
+  * ~~Repos to clone (vi-sensor, mav_statup, msg, asctec)~~ More to be added as needed/ found
   * Look into update the [mav_startup](https://github.com/rpng/firefly-interface) package
   * Ros version
   * **Line by line for Config files**
