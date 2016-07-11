@@ -22,8 +22,8 @@ AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec
   * Ros version
   * **Line by line for Config files**
   * ~~How to install the protection guard~~
-* Connect to vi-sensor with wifi enabled
-* How to record ros bags without external monitor
+* ~~Connect to vi-sensor with wifi enabled~~
+* ~~How to record ros bags without external monitor~~
 * Fly the unit a bunch
 * Checklists for how to prep for flying/what to do during/what to do after
 * rosbags to record:
