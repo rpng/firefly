@@ -31,5 +31,5 @@ AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec
   * Starting from zero
   * Loop closures
   * Dynamic moving
-  * Outdoor runs (as a group)
+  * ~~Outdoor runs (as a group)~~ Not allowed to fly outside on UD property
   * vicon system
