@@ -13,7 +13,7 @@ AscTec Firefly Project - http://www.asctec.de/en/uav-uas-drones-rpas-roav/asctec
 
 * Documentation
   * ~~How to connect to monitor, and usbs (picture guide)~~
-  * How to login (username and pass, maybe ssh instructions)
+  * ~~How to login (username and pass, maybe ssh instructions)~~
   * How to connect to wifi
   * ~~Flashing firmware~~
   * ~~Setting up ros workspace~~
